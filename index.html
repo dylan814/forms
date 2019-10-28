@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <title>Online Registration Form</title>
+  </head>
+  <body>
+  <header>
+
+    <div class="header">
+      <h1>THE CODE REVIEW </h1>
+    </div>
+    <h2 class="center"> Signup for our newsletter </h2>
+    <p class="center"> Get the latest on how you code is doing right to your inbox </p>
+
+
+    <div class="lines">
+      <hr class="bold">
+      <hr class="less">
+    </div>
+
+<br>
+<br>
+
+  </header>
+  <form class="" action="index.html" method="post">
+    <fieldset class="fieldset">
+      <legend id="heading">Contact Information</legend>
+      <br>
+      <br>
+
+         <div class="flex1">
+            <label for="name" class="label1">Full Name</label>
+        	  <input type="text" id="name" placeholder="required" >
+          </div>
+
+        <div class="flex1">
+          <label for="email" class="label1">Email:</label>
+          <input type="email" id="email" placeholder="required">
+        </div>
+
+        <div class="flex1">
+        <label for="phone" class="label1" >Phone Number</label>
+       	<input type="number" id="phone">
+        </div>
+
+        <div class="flex1">
+        <label for="address" class="label1">Street Address</label>
+    	  <input type="text" id="address">
+        </div>
+
+        <div class="flex1">
+        <label for="City" class="label1">City</label>
+    	  <input type="text" id="City">
+        </div>
+
+
+        <div class="flex1">
+        <label for="State" class="label1">State</label>
+        <select class="state" id="State" name="user_state">
+          <option value="" disabled selected>Select state</option>
+          <option value="Victoria">Victoria</option>
+          <option value="New South Wales">New South Wales</option>
+          <option value="Queensland">Queensland</option>
+          <option value="Tasmania">Tasmania</option>
+          <option value="Western Australia">Western Australia</option>
+          <option value="Northern Territory">Northern Territory</option>
+
+        </select>
+        </div>
+
+        <div class="flex1">
+        <label for="zip" class="label1 additional">Zip Code</label>
+        <input type="number" id="zip">
+        </div>
+
+        </fieldset>
+
+        <div class="lines">
+          <hr class="less">
+        </div>
+
+        <br>
+        <br>
+
+        <fieldset>
+        <legend id="heading"> NewsLetter </legend>
+        <p>Select the newsletters you would like to receive</p>
+
+          <div class="item">
+            <input type="checkbox" id="htmlnews" value="html" class="checkbox1">
+            <label for="htmlnews" class="label2">HTML news</label>
+          </div>
+
+
+          <div class="item">
+            <input type="checkbox" id="cssnews" name="css" class="checkbox1">
+            <label for="cssnews" class="label2">CSS news</label>
+          </div>
+
+
+
+
+          <div class="item">
+            <input type="checkbox" id="javascriptnews" name="javascript" class="checkbox1">
+            <label for="javascriptnews" class="label2">Javascript News</label>
+          </div>
+
+
+          <p> NewsLetter Format </p>
+
+
+
+          <div class="item">
+            <input type="radio" id="html" name="drone" value="plain" class="radio1">
+            <label for="html" class="label2">HTML</label>
+          </div>
+
+          <div class="item">
+            <input type="radio" id="plain" name="drone" value="plain" class="radio1">
+            <label for="plain" class="label2"> Plain Text</label>
+          </div>
+          <br>
+          <br>
+
+          <label for="textarea"> Other topics you would like to hear about </label>
+
+
+
+          <textarea id="textarea" rows="8" cols="80" name="story"rows="5" cols="33">
+
+          </textarea>
+
+           <br>
+           <br>
+          <!-- <input type="submit" value="Sign Up"> -->
+          <div class="button">
+            <button type="submit">Sign Up</button>
+          </div>
+          </fieldset>
+          </form>
+
+         <footer>
+                <p>Copyright The Code Review</p>
+
+
+         </footer>
+
+
+
+
+    <!-- </fieldset> -->
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,418 @@
+* {
+
+
+box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  padding:0;
+  width:100%  ;
+  font-family: 'Merriweather',sans-serif;
+
+}
+
+fieldset {
+
+  -webkit-appearance: none;
+  -moz-appearance:none;
+   appearance:none;
+   border:none;
+
+}
+
+#heading {
+
+  font-size:26px;
+  font-weight:300;
+}
+
+.header {
+
+  background-color: #000000;
+  color:#FFF;
+  position: relative;
+  top: -22px;
+  width:100%;
+  text-align: center;
+  padding-bottom:20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-top:20px;
+
+
+
+}
+
+.center {
+
+  text-align: center;
+}
+
+input[type=text], .label1 {
+
+ display:block;
+ width:90%;
+ margin: 0 auto;
+/* text-align:right; */
+}
+
+input[type=text] {
+
+  width: 90%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  background-color: #EBEAEE;
+  /* text-align:right; */
+}
+
+input[type=number] {
+
+width:90%;
+padding: 12px 10px;
+margin: 8px 0;
+background-color: #EBEAEE;
+
+
+}
+
+
+input[type=email] {
+
+width:90%;
+padding: 12px 10px;
+margin: 8px 0px;
+background-color: #EBEAEE;
+/* text-align:right; */
+}
+
+#name, #email, #phone, #City, #zip,#address {
+margin-left: 20px;
+
+
+}
+
+#phone {
+
+  margin-top:10px;
+}
+
+input:focus, textarea:focus {
+
+    border: 2px solid #3000C1;
+}
+
+.label1 {
+
+
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+.state {
+
+  width:90%;
+  /* margin: 0 auto; */
+  height:50px;
+
+  margin-left: 20px;
+  background-color: #EBEAEE;
+
+}
+
+/* the below code for styling checkbox's and radio button's has been copied from the website https://www.inserthtml.com/2012/06/custom-form-radio-checkbox/ */
+
+.checkbox1 {
+
+  -webkit-appearance: none;
+  appearance:none;
+  background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+
+}
+
+.checkbox1:checked {
+	background-color: #124ADF;
+	/* border: 1px solid #adb8c0; */
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #FFF;
+}
+
+.checkbox1:checked:after {
+	content: '\2714';
+	font-size: 12px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #FFF;
+}
+
+
+.item {
+
+  position: relative;
+
+}
+
+.label2 {
+
+  position:absolute;
+  top:5px;
+  left:40px;
+}
+
+
+
+.radio1 {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+.radio1:checked:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 30px;
+	position: absolute;
+	top: 3px;
+	background: #124ADF;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+.radio1:checked {
+	background-color: #FFF;
+	color: #124ADF;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+input[type=submit] {
+display:block;
+margin: 0 auto;
+}
+
+textarea {
+
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:90%;
+background-color: #EBEAEE;
+margin-top:20px;
+}
+
+input[type="submit"] {
+
+background-color: #52bab3;
+color: #FFF;
+width:90%;
+padding-top: 20px;
+margin-top: 40px;
+font-size: 40px;
+text-align: center;
+
+}
+
+/* .button {
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  width: 90%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+footer p {
+
+text-align: center;
+color: #888888;
+font-style: italic;
+font-size:small;
+
+}
+
+hr.bold {
+
+border:3px solid black;
+
+}
+
+hr.less {
+
+border:1px solid black;
+}
+
+.lines {
+
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+input[type=text]::-webkit-input-placeholder
+
+{
+
+  text-align: right;
+}
+
+
+
+input[type=text]::-moz-placeholder { /* Firefox 19+ */
+  text-align: right;
+}
+
+input[type=text]::-ms-input-placeholder { /* IE 10+ */
+  text-align: right;
+}
+input[type=email]::-moz-placeholder { /* Firefox 18- */
+  text-align: right;
+}
+
+input[type=email]::-moz-placeholder { /* Firefox 19+ */
+  text-align: right;
+}
+
+input[type=email]::-ms-input-placeholder { /* IE 10+ */
+  text-align: right;
+}
+input[type=email]::-moz-placeholder { /* Firefox 18- */
+  text-align: right;
+}
+
+input[type=email]::-webkit-input-placeholder
+
+{
+
+  text-align: right;
+}
+
+
+
+@media (min-width:769px ) {
+
+
+form {
+
+width:50%;
+margin:0 auto;
+padding:0;
+}
+
+
+ .flex1 {
+
+  display:flex;
+  justify-content:flex-start;
+  /* position:relative; */
+
+}
+
+input[type=text], input[type=number], input[type=email], input[type=address] {
+
+   /* margin-left: 50px; */
+    width:90%;
+   /* position:absolute;
+   right:50px; */
+
+
+}
+
+input[type=text]::-webkit-input-placeholder
+
+{
+
+  text-align: right;
+}
+
+input[type=email]::-webkit-input-placeholder
+
+{
+
+  text-align: right;
+}
+
+.label1 {
+/* positon:absolute;
+left:0px; */
+
+width:50%;
+
+}
+
+#name, #phone, #email, #address, #City, #zip {
+
+  margin-left:0px;
+  margin-top:0px;
+}
+
+.state {
+
+  margin-left:0px;
+  width:90%;
+  margin-bottom:20px;
+}
+
+.additional {
+/* align-self:flex-start; */
+margin:0;
+width:35%;
+}
+
+#zip {
+
+  width: 20%;
+}
+
+textarea {
+
+  margin-left: 0;
+  width:100%;
+
+}
+
+button {
+
+  margin-left:0;
+  margin-top:20px;
+  padding-left:0;
+  width:100%;
+  /* position: absolute;
+  left:50px; */
+}
+
+footer p {
+font-size: small;
+}
+
+}
