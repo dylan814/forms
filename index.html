@@ -28,33 +28,33 @@
   </header>
   <form class="" action="index.html" method="post">
     <fieldset class="fieldset">
-      <legend id="heading">Contact Information</legend>
+      <legend class="heading">Contact Information</legend>
       <br>
       <br>
 
          <div class="flex1">
             <label for="name" class="label1">Full Name</label>
-        	  <input type="text" id="name" placeholder="required" >
+        	  <input type="text" id="name" name="user_name" placeholder="required" >
           </div>
 
         <div class="flex1">
           <label for="email" class="label1">Email:</label>
-          <input type="email" id="email" placeholder="required">
+          <input type="email" id="email" name="user_email" placeholder="required">
         </div>
 
         <div class="flex1">
         <label for="phone" class="label1" >Phone Number</label>
-       	<input type="number" id="phone">
+       	<input type="number" id="phone" name="user_phone">
         </div>
 
         <div class="flex1">
         <label for="address" class="label1">Street Address</label>
-    	  <input type="text" id="address">
+    	  <input type="text" id="address" name="user_address">
         </div>
 
         <div class="flex1">
         <label for="City" class="label1">City</label>
-    	  <input type="text" id="City">
+    	  <input type="text" id="City" name="user_city">
         </div>
 
 
@@ -87,17 +87,17 @@
         <br>
 
         <fieldset>
-        <legend id="heading"> NewsLetter </legend>
+        <legend class="heading"> NewsLetter </legend>
         <p>Select the newsletters you would like to receive</p>
 
           <div class="item">
-            <input type="checkbox" id="htmlnews" value="html" class="checkbox1">
+            <input type="checkbox" id="htmlnews" value="html" class="checkbox1" name="check">
             <label for="htmlnews" class="label2">HTML news</label>
           </div>
 
 
           <div class="item">
-            <input type="checkbox" id="cssnews" name="css" class="checkbox1">
+            <input type="checkbox" id="cssnews" value="css" name="check" class="checkbox1">
             <label for="cssnews" class="label2">CSS news</label>
           </div>
 
@@ -105,7 +105,7 @@
 
 
           <div class="item">
-            <input type="checkbox" id="javascriptnews" name="javascript" class="checkbox1">
+            <input type="checkbox" id="javascriptnews" name="check" class="checkbox1" value="javascript">
             <label for="javascriptnews" class="label2">Javascript News</label>
           </div>
 
@@ -115,12 +115,12 @@
 
 
           <div class="item">
-            <input type="radio" id="html" name="drone" value="plain" class="radio1">
+            <input type="radio" id="html" name="user_html" value="plain" class="radio1">
             <label for="html" class="label2">HTML</label>
           </div>
 
           <div class="item">
-            <input type="radio" id="plain" name="drone" value="plain" class="radio1">
+            <input type="radio" id="plain" name="user_html" value="usr_plain" class="radio1">
             <label for="plain" class="label2"> Plain Text</label>
           </div>
           <br>
@@ -130,7 +130,7 @@
 
 
 
-          <textarea id="textarea" rows="8" cols="80" name="story"rows="5" cols="33">
+          <textarea id="textarea" rows="8" cols="80" name="story">
 
           </textarea>
 

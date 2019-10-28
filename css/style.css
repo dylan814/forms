@@ -21,7 +21,7 @@ fieldset {
 
 }
 
-#heading {
+.heading {
 
   font-size:26px;
   font-weight:300;
@@ -140,7 +140,7 @@ input:focus, textarea:focus {
 .checkbox1:checked {
 	background-color: #124ADF;
 	/* border: 1px solid #adb8c0; */
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	/* box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1); */
 	color: #FFF;
 }
 
@@ -189,7 +189,7 @@ input:focus, textarea:focus {
 	top: 3px;
 	background: #124ADF;
 	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
-	text-shadow: 0px;
+	/* text-shadow: 0px; */
 	left: 3px;
 	font-size: 32px;
 }
@@ -198,7 +198,7 @@ input:focus, textarea:focus {
 	background-color: #FFF;
 	color: #124ADF;
 	border: 1px solid #adb8c0;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+	/* box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1); */
 }
 
 input[type=submit] {
